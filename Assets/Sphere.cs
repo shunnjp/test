@@ -22,7 +22,7 @@ public class Sphere : MonoBehaviour {
 	}
 
 	void OnTriggerStay2D(Collider2D c){
-		Debug.Log ("CollisionStay");
+		//Debug.Log ("CollisionStay");
 	}
 	void OnTriggerExit2D(Collider2D c){
 		Debug.Log ("CollisionExit");
